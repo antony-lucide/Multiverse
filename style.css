@@ -19,6 +19,11 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /*background-image: url("couverture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 main{
@@ -86,4 +91,19 @@ main section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section{
+    background-color: #f1f5f8;
+    opacity: 0.9;
+    padding: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+}
+
+section img{
+    border-radius: 10px;
+}
+
+footer img{
+    border-radius: 10px;
 }
