@@ -21,8 +21,8 @@ section{
 
 
 body{
-  position: relative;
-  min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
 }
 
 footer{
@@ -32,7 +32,7 @@ footer{
     justify-content: center;
     border: 1px solid white;
     background-color: white;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.9);
     gap: 1em;
     flex-wrap: nowrap;
     padding: 10px;
@@ -51,7 +51,6 @@ img{
     width: auto;
     align-items: center;
     display: flex;padding: 10px;
-
 }
 
 .Profil{
