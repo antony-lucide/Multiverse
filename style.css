@@ -80,10 +80,67 @@ a::before {
 }
 
 
+
 a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
 }
+
+#vert::before {
+    background: rgb(23, 230, 74);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+    
+
+
+#vert:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#jaune::before {
+    background: rgb(236, 240, 4);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+    
+
+
+#jaune:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+#bleu::before {
+    background: rgb(1, 37, 238);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+    
+
+
+#bleu:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 
 main section {
     width: 50%;
@@ -107,3 +164,5 @@ section img{
 footer img{
     border-radius: 10px;
 }
+
+
