@@ -97,3 +97,10 @@ a:hover::before {
     display: flex;padding: 10px;
     list-style-type: none;
 }
+
+.maxresdefault{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
