@@ -7,10 +7,14 @@ body{
     flex-direction: column;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
-
+header{
+    position: sticky;
+    top: 0;
+    z-index: 8;
+}
 nav{
     display: flex;
-    height: 8vh;
+    min-height: 8vh;
     align-items: center;
     justify-content: space-around;
     background-color: white;
@@ -43,6 +47,7 @@ footer{
 nav ul{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -66,4 +71,8 @@ main section {
 
 section img, footer img{
     border-radius: 10px;
+}
+
+article img {
+    width: 100%;
 }

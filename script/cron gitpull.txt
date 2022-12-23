@@ -1,1 +1,0 @@
-*/5 * * * * cd /var/www/html/Multiverse ./gitpull.sh

@@ -1,0 +1,7 @@
+crontab -e
+
+*/5 * * * * cd /var/www/html/Multiverse ./gitpull.sh
+
+incrontab -e
+
+/etc/ufw/before.rules.csv IN_MODIFY /bin/bash autosave.sh
